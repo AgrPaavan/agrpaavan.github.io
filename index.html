@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Paavan Agrawal</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section_title section_title-intro">
+                Hi, I am <strong>Paavan Agrawal</strong>
+            </h1>
+            <p class="section_subtitle section_subtitle-intro">A 1st Year CS Student</p>
+            <img src="img/profile.jpg" alt="profile" class="intro_img">
+        </section>
+
+        <!-- Skills -->
+        <section class="my-skills" id="skills">
+            <h2 class="section_title section_title-skills">What I know</h2>
+            <p class="section_subtitle section_subtitle-skills">
+                I know how to code in multiple programming languages. The one I am most confident in is Java as I have used it for the
+                last 4 years in my school for my course. Apart from Java, I know beginner python and javascript to an intermediate level
+                having coded a discord bot using the javascript library called discord.js. I am also currently learning C and C++ to get
+                a head start on my college course.
+            </p>
+
+            <a href="#projects" class="btn">My Projects</a>
+        </section>
+
+        <!-- About -->
+        <section class="about" id="about">
+            <h2 class="section_title section_title-about">Who I am</h2>
+            <p class="section_subtitle section_subtitle-about">1st year CSE Student at SRMIST</p>
+
+            <div class="about-me_body">
+                <p>Hey, I am Paavan Agrawal, a freshman at <a href="https://www.srmist.edu.in">SRMIST</a> studying B.Tech CSE with specialization in Software Engineering.
+                    I completed my schooling from <a href="http://www.doonchool.com">The Doon School, Dehradun</a>.
+                </p><p>
+                    I started learning Java when I was in the 9th grade and despite the basic level of programming knowledge required in IGCSE, I learnt a lot
+                    of topics that were deemed as advanced for us at the time.
+                </p><p>
+                    During the 2020 lock-down, I started using discord more than usual and that's when my interest sparked in discord bots. I did a bit of research
+                    to come across the easy choice of either using python or javascript to create one and i obviously went with JS. Thanks to Youtube, I was able to
+                    create one on my own (you can find it <a href="https://github.com/AgrPaavan/Discord-Bot">here</a>.) Making this gave me a good knowledge of
+                    Node.js. After I was done with this I also spent some of my time learning python so know the basics of it.
+                </p><p>
+                    Coming to the present. My 1st semester at college has started and so have the enrolment for various clubs which will give me new knowledge
+                    and opportunities. I am currently spending my time trying to learn C and C++ to get a head start on my college course so that I do not have
+                    a lot of trouble later.
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <h2 class="section_title section_title-prrojects">My Work</h2>
+            <p class="section_subtitle section_subtitle-projects">What I have done so far</p>
+
+            <div class="portfolio">
+                <!-- Item 01 -->
+                <a href="https://www.github.com/AgrPaavan/Discord-Bot" class="portfolio_item" target="_blank">
+                    <img src="img/djs.png" alt="" class="portfolio_img">
+                    <div class="middle">Discord Bot</div>
+                </a>
+
+                <!-- Item 02 -->
+                <a href="https://www.github.com/AgrPaavan/" class="portfolio_item" target="_blank">
+                    <img src="img/portfolio.jpg" alt="" class="portfolio_img">
+                    <div class="middle">Portfolio Website</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer" id="contact">
+            <a href="mailto:paavanagr+portfolio@gmail.com" class="footer_link">paavanagr@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list_item"><a class="social-list_link"
+                    href="https://www.github.com/AgrPaavan"><i class="fab fa-github"></i></a></li>
+                <li class="social-list_item"><a class="social-list_link"
+                    href="https://www.linkedin.com/in/paavan-agrawal-28186a201/"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="social-list_item"><a class="social-list_link"
+                    href="https://www.instagram.com/paavan_agr"><i class="fab fa-instagram"></i></a></li>
+                <li class="social-list_item"><a class="social-list_link"
+                    href="https://twitter.com/AgrawalPaavan"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
