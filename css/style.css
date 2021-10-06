@@ -235,6 +235,10 @@ header {
 
 /*  Intro section  */
 
+.btn_padding {
+    margin-left: 10px;
+}
+
 .intro {
     position: relative;
 }
